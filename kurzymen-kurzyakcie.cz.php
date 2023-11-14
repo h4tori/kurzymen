@@ -1,10 +1,10 @@
-
 <?php
 /*
 Plugin Name: Kurzy Měn Widget (Kurzyakcie.cz)
 Description: Přidává widget s kurzy měn z Kurzyakcie.cz.
 Version: 1.0
 Author: Tomáš Rohlena @ Kurzyakcie.cz @ Webmint.cz 
+URL: https://www.kurzyakcie.cz/widget
 */
 
 // Bezpečnostní opatření
@@ -72,5 +72,3 @@ function kurzy_meny_deactivate() {
     // Zde můžete přidat kód, který se spustí při deaktivaci pluginu
 }
 register_deactivation_hook(__FILE__, 'kurzy_meny_deactivate');
-
-?>
